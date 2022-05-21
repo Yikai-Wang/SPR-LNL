@@ -20,7 +20,7 @@ torchvision==0.6.0a0+35d732a
 
 MNIST and CIFAR-10 can be downloaded using *torchvision*. The other two datasets can be downloaded from the official link: [ANIMAL10](https://dm.kaist.ac.kr/datasets/animal-10n/), [WebVision](https://data.vision.ee.ethz.ch/cvl/webvision/dataset2017.html).
 
-The datasets are expected to be stored in the folder **../data** or you may specify the *root* parameter, and arranged as follows:
+The datasets are expected to be stored in the folder **../data** or specified by the *root* parameter, and arranged as follows:
 ```
 │data/
 ├── MNIST/
@@ -108,3 +108,16 @@ Thanks to everyone who makes their code and models available. In particular,
 
 ## Contact Information
 For issues using SPR, please submit a GitHub issue.
+
+## Citation
+
+If you found the provided code useful, please cite our work.
+
+```
+@inproceedings{wang2022scalable,
+  title={Scalable Penalized Regression for Noise Detection in Learning with Noisy Labels},
+  author={Wang, Yikai and Sun, Xinwei and Fu, Yanwei},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2022}
+}
+```

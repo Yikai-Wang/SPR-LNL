@@ -1,0 +1,18 @@
+in_channels : 3
+num_classes : 50
+lr : 0.01
+weight_decay : 0.0005
+epochs : 300
+batch_size : 128
+norm : 0.2
+lamb : 1.2
+rho : 1.02
+freq : 1
+backbone : 'inception'
+optimizer : 'sgd'
+momentum : 0.9
+scheduler : 'cos'
+pca_dim : 10
+cutmix: 1
+cutmix_prob: 1.0
+num_classes_sub: 10
