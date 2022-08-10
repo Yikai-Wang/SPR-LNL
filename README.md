@@ -1,5 +1,6 @@
 # Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels
 \[[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Scalable_Penalized_Regression_for_Noise_Detection_in_Learning_With_Noisy_CVPR_2022_paper.pdf)\]
+\[[intro](https://yikai-wang.github.io/spr/)\]
 
 ## Overview
 This is the official repo for our CVPR22 paper: Scalable Penalized Regression for Noise Detection in Learning With Noisy Labels.
