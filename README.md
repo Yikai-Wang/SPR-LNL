@@ -56,6 +56,8 @@ The pretained models can be downloaded from [here](https://drive.google.com/driv
 Example training commands are listed in the folder **scripts**.
 You could try the following commands as a start.
 
+**Note**: To train with SPR but without using CutMix, you should set ```--cutmix 1``` and ```--cutmix_prob 0```.
+
 Train SPR on MNIST with different noise setting:
 ```
 python scripts/train_mnist.py
